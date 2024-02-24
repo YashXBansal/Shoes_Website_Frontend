@@ -3,6 +3,7 @@ import { navLinks } from "../constants";
 import { FiMenu } from 'react-icons/fi'; // Import hamburger icon from react-icons library
 import { useState } from 'react';
 
+
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
